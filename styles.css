@@ -9,7 +9,12 @@ body {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
 .navbar ul {
   list-style: none;
   display: flex;
@@ -57,12 +62,15 @@ body {
 }
 
 footer {
-  position: relative; 
+ position: relative;  
   width: 100%;
   background: #222;
   color: white;
   text-align: center;
   padding: 10px;
+}
+main{
+  flex: 1;
 }
 
  .page{
