@@ -74,3 +74,8 @@ input, textarea {
   margin: 10px 0;
   padding: 8px;
 }
+textarea:focus, 
+input:focus {
+  outline: none;                
+  border: 2px solid #007BFF; 
+}
