@@ -44,12 +44,17 @@ body {
 
 .products .card img {
   width: 120px;
-  height: auto;
   display: block;
   margin: 0 auto 10px auto;
   border-radius: 8px;
 }
-
+.gridItems{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
 
 footer {
   position: relative; 
